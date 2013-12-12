@@ -1,0 +1,20 @@
+{
+    "name": "formativ/billing",
+    "description": "",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Formativ\\Billing": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,9 @@
+.products {
+  margin-top: 20px;
+}
+.basket td {
+  vertical-align: middle !important;
+}
+.basket .quantity input {
+  width: 50px;
+}

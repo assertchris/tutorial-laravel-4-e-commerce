@@ -1,0 +1,20 @@
+server {
+
+    listen 80;
+
+    server_name <%= scope.lookupvar('nginx::params::domain') %>;
+
+    root /var/www/public;
+
+    include fastcgi_params;
+
+    location / {
+        index index.php;
+        try_files $uri $uri/ /index.php$is_args$args;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php5-fpm.sock;
+    }
+
+}
