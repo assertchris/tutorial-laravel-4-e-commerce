@@ -16,9 +16,8 @@ extends Migration
       $table->integer("product_id");
       $table->integer("quantity");
       $table->float("price");
-      $table->dateTime("created_at");
-      $table->dateTime("updated_at");
-      $table->dateTime("deleted_at");
+      $table->timestamps();
+      $table->softDeletes();
     });
   }
 
