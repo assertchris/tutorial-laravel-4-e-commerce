@@ -12,10 +12,10 @@ extends Migration
       $table->engine = "InnoDB";
       
       $table->increments("id");
-      $table->integer("category_id");
       $table->string("name");
       $table->integer("stock");
       $table->float("price");
+      $table->integer("category_id");
       $table->dateTime("created_at");
       $table->dateTime("updated_at");
       $table->dateTime("deleted_at");
