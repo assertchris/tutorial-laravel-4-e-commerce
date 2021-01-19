@@ -4,7 +4,7 @@
   "keywords"    : ["framework", "laravel"],
   "license"     : "MIT",
   "require"     : {
-    "laravel/framework" : "4.0.*",
+    "laravel/framework" : "6.20.*",
     "dompdf/dompdf"     : "dev-master",
     "fzaninotto/faker"  : "dev-master",
     "stripe/stripe-php" : "dev-master"
